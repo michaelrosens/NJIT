@@ -1,24 +1,65 @@
-let mCurrentIndex = 0 // Tracks the current image index
-let mImages = [] // Array to hold GalleryImage objects
-const mUrl = 'https://your-json-url.com' // Replace with actual JSON URL
-const mWaitTime = 5000 // Timer interval in milliseconds
+let mCurrentIndex = 0;
+let mImages = [];
+const mUrl = 'https://api.npoint.io/a059b9cf0f6baf1de974';
+const mWaitTime = 5000;
 
 $(document).ready(() => {
-  $('.details').hide() // Hide details initially
+  $('.details').hide(); // Hide details initially
 
-  // Call a function here to start the timer for the slideshow
+  // Start the timer for the slideshow
+  startSlideshow();
 
-  // Select the moreIndicator button and add a click event to:
-  // - toggle the rotation classes (rot90 and rot270)
-  // - slideToggle the visibility of the .details section
+  // Select the moreIndicator button and add a click event
+  $('.moreIndicator').click(() => {
+    // Toggle the rotation classes (rot90 and rot270)
+    $('.moreIndicator').toggleClass('rot90 rot270');
+    // SlideToggle the visibility of the .details section
+    $('.details').slideToggle();
+  });
 
   // Select the "Next Photo" button and add a click event to call showNextPhoto
+  $('#nextPhoto').click(showNextPhoto);
 
   // Select the "Previous Photo" button and add a click event to call showPrevPhoto
+  $('#prevPhoto').click(showPrevPhoto);
 
   // Call fetchJSON() to load the initial set of images
-  fetchJSON()
-})
+  fetchJSON();
+});
+
+function fetchJSON() {
+  fetch(mUrl)
+    .then(response => response.json())
+    .then(data => {
+      mImages = data.images;
+      swapPhoto();
+    })
+    .catch(error => console.error('Error fetching JSON:', error));
+}
+
+function swapPhoto() {
+  if (mImages.length > 0) {
+    const currentImage = mImages[mCurrentIndex];
+    $('#photo').attr('src', currentImage.imgPath);
+    $('.playerName').text(`Player: ${currentImage.playerName}`);
+    $('.description').text(`Team: ${currentImage.description}`);
+    $('.points').text(`Points: ${currentImage.points}`);
+  }
+}
+
+function showNextPhoto() {
+  mCurrentIndex = (mCurrentIndex + 1) % mImages.length;
+  swapPhoto();
+}
+
+function showPrevPhoto() {
+  mCurrentIndex = (mCurrentIndex - 1 + mImages.length) % mImages.length;
+  swapPhoto();
+}
+
+function startSlideshow() {
+  setInterval(showNextPhoto, mWaitTime);
+}
 
 // Function to fetch JSON data and store it in mImages
 function fetchJSON () {
