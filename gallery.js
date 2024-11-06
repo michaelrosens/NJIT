@@ -30,8 +30,7 @@ function fetchJSON () {
       console.log(data.images)
       mImages = data.images
       
-      $('#photo').attr('src', mImages[mCurrentIndex ].imgPath)
-
+      $('#photo').attr('src', mImages[mCurrentIndex].imgPath)
 
     }
   });
