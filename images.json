@@ -1,82 +1,64 @@
 {
     "images": [
-        {
-            "imgPath": "img/places/australia.jpg",
-            "imgLocation": "Australia",
-            "description": "Loch Ard Gorge",
-            "date": "01/01/2016"
-        },
-        {
-            "imgPath": "img/places/austria.jpg",
-            "imgLocation": "Austria",
-            "description": "Austrian chapel",
-            "date": "01/02/2016"
-        },
-        {
-            "imgPath": "img/places/france.jpg",
-            "imgLocation": "Paris",
-            "description": "Eiffel Tower",
-            "date": "01/03/2016"
-        },
-        {
-            "imgPath": "img/places/greece.jpg",
-            "imgLocation": "Greece",
-            "description": "Greek coastline",
-            "date": "01/04/2016"
-        },
-        {
-            "imgPath": "img/places/hungary.jpg",
-            "imgLocation": "Hungary",
-            "description": "Budapest skyline",
-            "date": "01/05/2016"
-        },
-        {
-            "imgPath": "img/places/india.jpg",
-            "imgLocation": "India",
-            "description": "Taj Mahal",
-            "date": "01/06/2016"
-        },
-        {
-            "imgPath": "img/places/italy.jpg",
-            "imgLocation": "Italy",
-            "description": "Venice",
-            "date": "01/07/2016"
-        },
-        {
-            "imgPath": "img/places/japan.jpg",
-            "imgLocation": "Japan",
-            "description": "Hirosaki Castle",
-            "date": "01/08/2016"
-        },
-        {
-            "imgPath": "img/places/korea.jpg",
-            "imgLocation": "South Korea",
-            "description": "Seoul",
-            "date": "01/09/2016"
-        },
-        {
-            "imgPath": "img/places/norway.jpg",
-            "imgLocation": "Norway",
-            "description": "Countryside mountains",
-            "date": "01/10/2016"
-        },
-        {
-            "imgPath": "img/places/switzerland.jpg",
-            "imgLocation": "Switzerland",
-            "description": "Lake castle",
-            "date": "01/11/2016"
-        },
-        {
-            "imgPath": "img/places/thailand.jpg",
-            "imgLocation": "Thailand",
-            "description": "Beachline",
-            "date": "01/12/2016"
-        },
-        {
-            "imgPath": "img/places/turkey.jpg",
-            "imgLocation": "Turkey",
-            "description": "Istanbul",
-            "date": "01/13/2016"
-        }
-  ]
-}
+      {
+        "imgPath": "img/lebron.jpg",
+        "playerName": "LeBron James",
+        "description": "Los Angeles Lakers",
+        "points": "39868"
+      },
+      {
+        "imgPath": "img/kareem.jpg",
+        "playerName": "Kareem Abdul-Jabbar",
+        "description": "Los Angeles Lakers",
+        "points": "38387"
+      },
+      {
+        "imgPath": "img/malone.jpeg",
+        "playerName": "Karl Malone",
+        "description": "Utah Jazz",
+        "points": "36928"
+      },
+      {
+        "imgPath": "img/bryant.jpg",
+        "playerName": "Kobe Bryant",
+        "description": "Los Angeles Lakers",
+        "points": "33643"
+      },
+      {
+        "imgPath": "img/jordan.jpg",
+        "playerName": "Michael Jordan",
+        "description": "Chicago Bulls",
+        "points": "32292"
+      },
+      {
+        "imgPath": "img/dirk.jpg",
+        "playerName": "Dirk Nowitzki",
+        "description": "Dallas Mavericks",
+        "points": "31560"
+      },
+      {
+        "imgPath": "img/wil.jpg",
+        "playerName": "Wilt Chamberlain",
+        "description": "Philadelphia/San Francisco Warriors",
+        "points": "31419"
+      },
+      {
+        "imgPath": "img/shaq.jpg",
+        "playerName": "Shaquille O'Neal",
+        "description": "Los Angeles Lakers",
+        "points": "28596"
+      },
+      {
+        "imgPath": "img/melo.jpg",
+        "playerName": "Carmelo Anthony",
+        "description": "Denver Nuggets",
+        "points": "28289"
+      },
+      {
+        "imgPath": "img/moses.jpg",
+        "playerName": "Moses Malone",
+        "description": "Philadelphia 76ers",
+        "points": "27409"
+      }
+    ]
+  }
