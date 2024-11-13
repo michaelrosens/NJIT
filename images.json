@@ -2,8 +2,8 @@
     "images": [
       {
         "imgPath": "img/lebron.jpg",
-        "playerName": "LeBron James",
-        "description": "Los Angeles Lakers",
+        "person": "LeBron James",
+        "team": "Los Angeles Lakers",
         "points": "39868"
       },
       {
