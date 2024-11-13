@@ -40,11 +40,17 @@ function fetchJSON () {
 }
 
 // Function to swap and display the next photo in the slideshow
-function swapPhoto () {
+function swapPhoto() {
   // Access mImages[mCurrentIndex] to update the image source and details
   // Update the #photo element's src attribute with the current image's path
   // Update the .location, .description, and .date elements with the current image's details
+  let imageData = mImages[mCurrentIndex];
+  $('#photo').attr("src",imageData.imgPath);
+  $('.person').text("Person: " + imageData.imgPerson);
+  $('.description').text("Description: " + imageData.description);
 }
+}
+
 
 // Advances to the next photo, loops to the first photo if the end of array is reached
 function showNextPhoto () {
