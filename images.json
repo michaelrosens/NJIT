@@ -1,64 +1,64 @@
 {
-    "images": [
-      {
-        "imgPath": "img/lebron.jpg",
-        "person": "LeBron James",
-        "team": "Los Angeles Lakers",
-        "points": "39868"
-      },
-      {
-        "imgPath": "img/kareem.jpg",
-        "playerName": "Kareem Abdul-Jabbar",
-        "description": "Los Angeles Lakers",
-        "points": "38387"
-      },
-      {
-        "imgPath": "img/malone.jpeg",
-        "playerName": "Karl Malone",
-        "description": "Utah Jazz",
-        "points": "36928"
-      },
-      {
-        "imgPath": "img/bryant.jpg",
-        "playerName": "Kobe Bryant",
-        "description": "Los Angeles Lakers",
-        "points": "33643"
-      },
-      {
-        "imgPath": "img/jordan.jpg",
-        "playerName": "Michael Jordan",
-        "description": "Chicago Bulls",
-        "points": "32292"
-      },
-      {
-        "imgPath": "img/dirk.jpg",
-        "playerName": "Dirk Nowitzki",
-        "description": "Dallas Mavericks",
-        "points": "31560"
-      },
-      {
-        "imgPath": "img/wil.jpg",
-        "playerName": "Wilt Chamberlain",
-        "description": "Philadelphia/San Francisco Warriors",
-        "points": "31419"
-      },
-      {
-        "imgPath": "img/shaq.jpg",
-        "playerName": "Shaquille O'Neal",
-        "description": "Los Angeles Lakers",
-        "points": "28596"
-      },
-      {
-        "imgPath": "img/melo.jpg",
-        "playerName": "Carmelo Anthony",
-        "description": "Denver Nuggets",
-        "points": "28289"
-      },
-      {
-        "imgPath": "img/moses.jpg",
-        "playerName": "Moses Malone",
-        "description": "Philadelphia 76ers",
-        "points": "27409"
-      }
-    ]
-  }
+  "images": [
+    {
+      "imgPath": "img/lebron.jpg",
+      "person": "LeBron James",
+      "team": "Los Angeles Lakers",
+      "points": "39868"
+    },
+    {
+      "imgPath": "img/kareem.jpg",
+      "person": "Kareem Abdul-Jabbar",
+      "team": "Los Angeles Lakers",
+      "points": "38387"
+    },
+    {
+      "imgPath": "img/malone.jpeg",
+      "person": "Karl Malone",
+      "team": "Utah Jazz",
+      "points": "36928"
+    },
+    {
+      "imgPath": "img/bryant.jpg",
+      "person": "Kobe Bryant",
+      "team": "Los Angeles Lakers",
+      "points": "33643"
+    },
+    {
+      "imgPath": "img/jordan.jpg",
+      "person": "Michael Jordan",
+      "team": "Chicago Bulls",
+      "points": "32292"
+    },
+    {
+      "imgPath": "img/dirk.jpg",
+      "person": "Dirk Nowitzki",
+      "team": "Dallas Mavericks",
+      "points": "31560"
+    },
+    {
+      "imgPath": "img/wil.jpg",
+      "person": "Wilt Chamberlain",
+      "team": "Philadelphia/San Francisco Warriors",
+      "points": "31419"
+    },
+    {
+      "imgPath": "img/shaq.jpg",
+      "person": "Shaquille O'Neal",
+      "team": "Los Angeles Lakers",
+      "points": "28596"
+    },
+    {
+      "imgPath": "img/melo.jpg",
+      "person": "Carmelo Anthony",
+      "team": "Denver Nuggets",
+      "points": "28289"
+    },
+    {
+      "imgPath": "img/moses.jpg",
+      "person": "Moses Malone",
+      "team": "Philadelphia 76ers",
+      "points": "27409"
+    }
+  ]
+}
