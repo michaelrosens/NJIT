@@ -52,19 +52,29 @@ function swapPhoto() {
   $('.person').text("Person: " + imageData.person);
   $('.team').text("Team: " + imageData.team);
   $('.description').text("Points: " + imageData.points);
+  $('.assists').text("Assists: " + imageData.assists);
+  $('.rebounds').text("Rebounds: " + imageData.rebounds);
 }
 
 
 // Advances to the next photo, loops to the first photo if the end of array is reached
 function showNextPhoto () {
-  // Increment mCurrentIndex and call swapPhoto()
-  // Ensure it loops back to the beginning if mCurrentIndex exceeds array length
+  mCurrentIndex++;
+  if (mCurrentIndex == mImages.length) {
+    mCurrentIndex = 0;
+  }
+  console.log(mCurrentIndex);
+  swapPhoto();
 }
 
 // Goes to the previous photo, loops to the last photo if mCurrentIndex goes negative
 function showPrevPhoto () {
-  // Decrement mCurrentIndex and call swapPhoto()
-  // Ensure it loops to the end if mCurrentIndex is less than 0
+  mCurrentIndex--;
+  if (mCurrentIndex < 0) {
+    mCurrentIndex = mImages.length - 1;
+  }
+  console.log(mCurrentIndex);
+  swapPhoto();
 }
 
 // Starter code for the timer function
